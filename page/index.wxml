@@ -1,1 +1,2 @@
 <view>我的第一个小程序界面</view>
+<navigator url="/page/detail">点击跳转到详情页</navigator>
