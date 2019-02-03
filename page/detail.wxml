@@ -1,1 +1,4 @@
 <view>这里是详情页</view>
+<view class="big">app.wxss中样式定义被覆盖掉</view>
+<view class="text">index里对class为text的文字定义不会影响到这里的detail页</view>
+<view style="color:red;">该文字应用了内联样式“ style="color:red;" ”</view>

@@ -1,1 +1,14 @@
-/* page/index.wxss */
+/* page/index.wxss  在这里定义的样式只会对index页生效*/
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+
+.text {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-indent: 2em;
+  color: #333333;/*此样式不会影响到detail页*/
+}

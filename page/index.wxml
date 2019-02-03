@@ -1,2 +1,8 @@
-<view>我的第一个小程序界面</view>
+<!-- 文字受到app.wxss样式的影响 -->
+<view class="big">大文字</view>
+
+<view class="title">标题1</view>
+<view class="text">段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字</view>
+<view class="title">标题2</view>
+<view class="text">段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字段落文字</view>
 <navigator url="/page/detail">点击跳转到详情页</navigator>

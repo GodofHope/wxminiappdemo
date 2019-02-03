@@ -1,1 +1,6 @@
-/* page/detail.wxss */
+/* page/detail.wxss 在这里定义的样式只会对detail页生效 */
+
+/* 当重复定义时，页面样式会覆盖app.wxss中的样式定义 */
+.big{
+  font-size: 12px;
+}
