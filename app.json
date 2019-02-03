@@ -1,6 +1,30 @@
 {
   "pages": [
     "page/index",
-    "page/detail"
-  ]
+    "page/detail",
+    "page/function"
+  ],
+  "window": {
+		"navigationBarBackgroundColor": "#5ab879",
+		"navigationBarTitleText": "小程序标题",
+		"backgroundColor": "#efeef4"
+	},
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#3cc51f",
+    "list": [
+      {
+        "pagePath": "page/index",
+        "text": "主页",
+        "iconPath": "icon/tab/home.png",
+        "selectedIconPath": "icon/tab/@Home.png"
+      },
+      {
+        "pagePath": "page/function",
+        "text": "功能",
+        "iconPath": "icon/tab/function.png",
+        "selectedIconPath": "icon/tab/@Function.png"
+      }
+    ]
+  }
 }

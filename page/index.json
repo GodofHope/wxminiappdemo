@@ -1,7 +1,3 @@
 {
-  "navigationBarBackgroundColor": "#5ab879",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "这是我的index页标题",
-  "backgroundColor": "#efeef4",
-  "backgroundTextStyle": "light"
+  "navigationBarTitleText": "这是我的index页标题"
 }
