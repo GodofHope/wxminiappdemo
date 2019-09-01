@@ -1,2 +1,55 @@
-<!--page/function.wxml-->
 <text>这里是功能页</text>
+<!-- view -->
+<view class="head">view：</view>
+<view style="width:100px;height:100px;background-color:red;">这是一个简单的view</view>
+<view class="title">这是个带有文字和样式的view，用作标题</view>
+<view>
+  这是一个不带有任何样式的纯文字view
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</view>
+<!-- scroll-view -->
+<view class="head">scroll-view</view>
+<view class="title">宽度100%，只允许x方向滑动的scroll-view:</view>
+<scroll-view style='width:100%' scroll-x>
+  <view style="width:1500rpx;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </view>
+</scroll-view>
+<view class="title">高度200px，只允许y方向滑动的scroll-view:</view>
+<scroll-view style='height:200px' scroll-y>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</scroll-view>
+<!-- <swiper autoplay indicator-dots interval='5500' style='height:240px'>
+  <swiper-item>
+    <image style="width:750rpx" src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=805339627,485455808&fm=26&gp=0.jpg'></image>
+
+  </swiper-item>
+  <swiper-item>
+    <image style="width:750rpx" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550204201&di=ed9fbb9bd929569075628e6c42955a2b&imgtype=jpg&er=1&src=http%3A%2F%2Fwx1.sinaimg.cn%2Forj360%2F00620E7kly1fly4y08mgvj30zk0qotde.jpg"></image>
+  </swiper-item>
+  <swiper-item>789
+  </swiper-item>
+</swiper> -->
+<!-- <scroll-view style='height:100px' scroll-y>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</scroll-view> -->
+<swiper style="height:100px;">
+  <swiper-item>123</swiper-item>
+  <swiper-item>456</swiper-item>
+  <swiper-item>999</swiper-item>
+</swiper>
+<icon type='success' />
+<icon type='warn' />
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+<progress percent='20'></progress>
+<picker>SELECTOR</picker>
+<switch></switch>
+<text>\n\n\n</text>
+<navigator url='/page/detail'>this is a link</navigator>
+<text>\n\n\n</text>
+<camera></camera>
+<map></map>

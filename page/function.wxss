@@ -1,0 +1,11 @@
+.title {
+  margin: 10px 3% 5px 3%;
+  font-size: 15px;
+  color: #333;
+}
+
+.head {
+  margin: 20px 5%;
+  font-size: 20px;
+  font-weight: 500;
+}
