@@ -23,33 +23,27 @@
 
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </scroll-view>
-<!-- <swiper autoplay indicator-dots interval='5500' style='height:240px'>
-  <swiper-item>
-    <image style="width:750rpx" src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=805339627,485455808&fm=26&gp=0.jpg'></image>
-
-  </swiper-item>
-  <swiper-item>
-    <image style="width:750rpx" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550204201&di=ed9fbb9bd929569075628e6c42955a2b&imgtype=jpg&er=1&src=http%3A%2F%2Fwx1.sinaimg.cn%2Forj360%2F00620E7kly1fly4y08mgvj30zk0qotde.jpg"></image>
-  </swiper-item>
-  <swiper-item>789
-  </swiper-item>
-</swiper> -->
-<!-- <scroll-view style='height:100px' scroll-y>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</scroll-view> -->
+<view class="title">一个 swiper</view>
 <swiper style="height:100px;">
   <swiper-item>123</swiper-item>
   <swiper-item>456</swiper-item>
   <swiper-item>999</swiper-item>
 </swiper>
+<view class="title">icon展示</view>
 <icon type='success' />
 <icon type='warn' />
+<view class="title">富文本组件展示</view>
 <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+<view class="title">进度条展示</view>
 <progress percent='20'></progress>
-<picker>SELECTOR</picker>
+<view class="title">选择器展示</view>
+<picker range="{{[1,2,3]}}">SELECTOR</picker>
+<view class="title">开关展示</view>
 <switch></switch>
-<text>\n\n\n</text>
+<view class="title">换行展示</view>
+<text>1\n2\n3\n</text>
+<view class="title">链接展示</view>
 <navigator url='/page/detail'>this is a link</navigator>
 <text>\n\n\n</text>
-<camera></camera>
-<map></map>
+<view class="title">地图展示</view>
+<map style="width:100%"></map>
