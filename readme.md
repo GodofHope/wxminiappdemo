@@ -15,3 +15,7 @@
 ## tab
 
 在本版本中，Mr.Hope添加了最简单的tab，并且在app.json中添加了默认的窗口配置。
+
+## component
+
+在本版本中， Mr.Hope简单展示了一些组件的用法。

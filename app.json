@@ -5,10 +5,10 @@
     "page/function"
   ],
   "window": {
-		"navigationBarBackgroundColor": "#5ab879",
-		"navigationBarTitleText": "小程序标题",
-		"backgroundColor": "#efeef4"
-	},
+    "navigationBarBackgroundColor": "#5ab879",
+    "navigationBarTitleText": "小程序标题",
+    "backgroundColor": "#efeef4"
+  },
   "tabBar": {
     "color": "#8a8a8a",
     "selectedColor": "#3cc51f",
@@ -26,5 +26,6 @@
         "selectedIconPath": "icon/tab/@Function.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
